@@ -52,7 +52,7 @@ export default {
     return {
       scrollX: 0,
       width: 320,
-      appKey: '13820f5d51d54f2bfb5203278b7bf8b9', // 테스트용 appkey
+      appKey: '77aff6a169e4559bf0d5721b6e83ef6c', // 테스트용 appkey
       center: {lat: 37.4987, lng: 127.0316}, // 지도의 중심 좌표
       level: 3, // 지도의 레벨(확대, 축소 정도),
       mapTypeId: VueDaumMap.MapTypeId.NORMAL, // 맵 타입
