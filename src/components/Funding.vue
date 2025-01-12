@@ -14,7 +14,7 @@ export default {
   name: "Divider",
   methods: {
     funding() {
-      window.open("https://qr.kakaopay.com/Ej7oz709Y ");
+      window.open("https://qr.kakaopay.com/Ej7oz709Y");
     },
   },
 };
