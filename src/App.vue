@@ -43,7 +43,6 @@ export default {
     Gallery,
     Funding,
     Credit,
-    Celebrate,
     FlowerRain,
     BottomSheet,
     Map,
