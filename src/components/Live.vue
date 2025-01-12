@@ -6,7 +6,7 @@
     <img src="~@/assets/images/hands.png" class="hands" />
     <div>
       <p class = "header">
-        "이제는 함께 합니다.<br />
+        "이제는 함께 합니다."<br />
       </p>
       <p>
         1997년 10월 15일<br />
