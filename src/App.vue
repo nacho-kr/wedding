@@ -14,9 +14,7 @@
     <Divider />
     <Funding />
     <Divider />
-    <div style="display: none">
-      <Credit />
-    </div>
+    <Credit />
     <BottomSheet
       :is-open="isOpen"
       @close="handleClose"
@@ -49,7 +47,7 @@ export default {
     Celebrate,
     FlowerRain,
     BottomSheet,
-    Map,
+    Map
   },
   data() {
     return {
