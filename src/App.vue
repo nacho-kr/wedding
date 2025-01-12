@@ -8,8 +8,6 @@
     <Divider />
     <Gallery />
     <Divider />
-    <Celebrate @click="handleClick" :presents="presents" />
-    <Divider />
     <Map />
     <Divider />
     <Funding />
@@ -32,7 +30,6 @@ import Live from "./components/Live.vue";
 import Gallery from "./components/Gallery.vue";
 import Funding from "./components/Funding.vue";
 import Credit from "./components/Credit.vue";
-import Celebrate from "./components/Celebrate.vue";
 import Map from "./components/Map.vue";
 import FlowerRain from "./components/FlowerRain.vue";
 import BottomSheet from "./components/BottomSheet.vue";
