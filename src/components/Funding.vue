@@ -5,7 +5,7 @@
       축하해주셔서 감사합니다.
     </h2>
     <p>
-    <Button @click="funding"> 신랑에게 마음 전하기</Button>
+    <Button @click="funding"> 참석 여부 알리기</Button>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
   name: "Divider",
   methods: {
     funding() {
-      window.open("https://qr.kakaopay.com/Ej7oz709Y");
+      window.open("https://joey.team/block/?id=adv7EanqvKXC7bMCsefkgAsxlby2&block_id=W2RNLZJ1Ydm0i2IfvImU");
     },
   },
 };
