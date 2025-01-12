@@ -6,31 +6,49 @@
     <img src="~@/assets/images/hands.png" class="hands" />
     <div>
       <p class = "header">
-        "우리 손 잡을까요?"<br />
+        "이제는 함께 합니다.<br />
       </p>
       <p>
-        각자의 삶을 열심히 살아온 저희가,<br />
-        이제는 손을 잡고 함께 나란히 걸어가려 합니다.<br />
-        사랑한다는 말이 어울리는 사람과 함께<br />
-        오래도록 있는 힘을 다해 행복해지겠습니다.<br />
-        조용하지만 기쁨이 가득한 결혼 소식을<br />
-        이렇게 알려드립니다.
+        1997년 10월 15일<br />
+        같은 날 태어나 다른 삶을 살아온 저희가,<br />
+        이제는 하나가 되어 함께 걸어가려 합니다.<br />
+        사랑이라는 말이 어울리는 사람과 함께.<br />
+        기쁨이 가득한 결혼 소식을<br />
+        알려드립니다.
       </p>
       <p class = "header">
-        21년 1월 22일 금요일<br />
-        오전 11시 30분<br />
-      </p>
-      <p>
-        작은 가족식이기에 여러분의 얼굴을 보고 <br />
-        직접 감사와 축하를 나누지는 못하지만,<br />
-        대신 전세계가 참여할 수 있는<br />
-        YouTube Live방송으로 함께 하려고 합니다.<br />
-        여러분이 저희와 함께 있다고 느낄 수 있도록<br />
-        온라인으로 참석해서 채팅으로 축하해주세요.
+        25년 5월 17일 토요일<br />
+        17시 30분<br />
+        라움 아트센터<br />
       </p>
 
     </div>
-    <Button @click="attendance">영혼 참석하기</Button>
+    <Button @click="attendance">앨범 구경하기<template>
+  <div class="live">
+    <p class = "desc">
+      위 애니메이션은 꼭 소리를 켜고 봐주세요!
+    </p>
+    <img src="~@/assets/images/hands.png" class="hands" />
+    <div>
+      <p class = "header">
+        "이제는 함께 합니다.<br />
+      </p>
+      <p>
+        1997년 10월 15일<br />
+        같은 날 태어나 다른 삶을 살아온 저희가,<br />
+        이제는 하나가 되어 함께 걸어가려 합니다.<br />
+        사랑이라는 말이 어울리는 사람과 함께.<br />
+        기쁨이 가득한 결혼 소식을<br />
+        알려드립니다.
+      </p>
+      <p class = "header">
+        25년 5월 17일 토요일<br />
+        17시 30분<br />
+        라움 아트센터<br />
+      </p>
+
+    </div>
+    <Button @click="attendance">앨범 구경하기</Button>
   </div>
 </template>
 
@@ -39,7 +57,7 @@ export default {
   name: "Divider",
   methods: {
     attendance() {
-      window.open("https://youtu.be/yU9UULnBt0w");
+      window.open("https://drive.google.com/drive/folders/1dmUd-frxoltnCk4RQLNeRxlk_p_uVWFW?usp=sharing");
     },
   },
 };
