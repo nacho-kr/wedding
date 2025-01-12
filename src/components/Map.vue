@@ -1,6 +1,10 @@
 <template>
   <div class="map">
     <div></div>
+    <div class='lagre-image">
+      <img src=img/map.png" alt="지도" />
+    </div>
+      
     <div class="map-container" ref="gal">
       <vue-daum-map
           :appKey="appKey"
