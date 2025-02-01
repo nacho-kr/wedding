@@ -9,7 +9,7 @@
     <Gallery />
     <Divider />
     <Divider />
-    <Map />
+    <MapComponent />
     <Divider />
     <Funding />
     <Divider />
@@ -31,7 +31,7 @@ import Live from "./components/Live.vue";
 import Gallery from "./components/Gallery.vue";
 import Funding from "./components/Funding.vue";
 import Credit from "./components/Credit.vue";
-import Map from "./components/Map.vue";
+import MapComponent from "./components/Map.vue";
 import FlowerRain from "./components/FlowerRain.vue";
 import BottomSheet from "./components/BottomSheet.vue";
 import firebase from "firebase";
@@ -46,7 +46,7 @@ export default {
     Credit,
     FlowerRain,
     BottomSheet,
-    Map,
+    MapComponent,
   },
   data() {
     return {
