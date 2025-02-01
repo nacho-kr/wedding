@@ -1,7 +1,7 @@
 
 
 <template>
-  <div id="jiyong">
+  <div id="kyong">
     <FlowerRain />
     <IntroMovie />
     <Live />
@@ -223,7 +223,7 @@ button {
 * {
   box-sizing: border-box;
 }
-#jiyong {
+#kyong {
   font-family: "Cafe24Oneprettynight", sans-serif;
   max-width: 460px;
   margin: 0 auto;
