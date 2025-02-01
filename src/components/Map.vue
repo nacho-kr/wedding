@@ -2,7 +2,7 @@
   <div class="map">
     <div></div>
     <div class="map-container" ref="gal">
-      <div class='lagre-image"><img src="~@/assets/images/icons/map.png"/></div>
+      <div class="lagre-image"><img src="~@/assets/images/icons/map.png"/></div>
       
       <vue-daum-map>
           :appKey="appKey"
