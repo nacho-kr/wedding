@@ -3,7 +3,7 @@
     <div></div>    
       <vue-daum-map>
             <div class="map-container" ref="gal">
-      <div class='lagre-image"><img src="~@/assets/images/icons/map.png"/></div>
+      <div class="lagre-image"><img src="~@/assets/images/icons/map.png"/></div>
           :appKey="appKey"
           :center.sync="center"
           :level.sync="level"
