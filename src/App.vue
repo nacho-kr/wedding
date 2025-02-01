@@ -1,7 +1,7 @@
 
 
 <template>
-  <div id="jiyong">
+  <div id="kyong">
     <FlowerRain />
     <IntroMovie />
     <Live />
